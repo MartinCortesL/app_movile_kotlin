@@ -1,0 +1,5 @@
+##Para utilizar y descargar el modelo de IA que se utilizó en la aplicación
+##debe ingresar al siguiente enlace, despues debe almacenar el modelo en la
+##carpeta de raw, es decir, en: app/src/main/res/raw/
+
+##Enlace: https://drive.google.com/drive/folders/1EVbwNs3NiT5-lU0dxr1VLg_0NcgxXaHS?usp=drive_link
