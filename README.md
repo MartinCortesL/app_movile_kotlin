@@ -5,7 +5,7 @@ En el presente repostirorio se muestra el codigo fuente con el que fue creado la
 
 Para revisar las versiones de las librerias y dependencias usadas en la aplicación, ingrese al archivo gradle.gradle.kts al nivel de aplicación.
 
-Con el fin de identificar a los animales correctamente se entrenó un modelo de CNN con pytorch y un aproximado de 20k de imagenes, dichas imágenes se encuentran en:
+Con el fin de identificar a los animales correctamente se entrenó un modelo de CNN con pytorch y un aproximado de 20k de imagenes, dichas imágenes se encuentran en: [Zenodo](https://doi.org/10.5281/zenodo.19926200), 
 adémas, los animales que se pueden identificar con ésta aplicación son los siguientes.
 
 
