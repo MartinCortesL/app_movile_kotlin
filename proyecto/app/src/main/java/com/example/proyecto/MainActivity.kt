@@ -55,6 +55,7 @@ import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -210,6 +211,11 @@ fun ProyectoApp() {
                 if (!keepHistory) {
                     especie_historial = null
                 }
+                val myItemColors = NavigationSuiteDefaults.itemColors(
+                    navigationBarItemColors = NavigationBarItemDefaults.colors(
+                        indicatorColor = Color.Transparent
+                    )
+                )
                 NavigationSuiteScaffold(
                     layoutType = if (showNavigationMenu) NavigationSuiteType.NavigationBar else NavigationSuiteType.None,
                     navigationSuiteColors = NavigationSuiteDefaults.colors(
@@ -233,7 +239,8 @@ fun ProyectoApp() {
                                 },
                                 label = { Text(it.label, style = TextStyle(fontSize = 14.sp)) },
                                 selected = it == currentDestination,
-                                onClick = { currentDestination = it }
+                                onClick = { currentDestination = it },
+                                colors = myItemColors
                             )
                         }
                     }
