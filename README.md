@@ -52,13 +52,24 @@ La pantalla principal, en la cual, se podra tomar cualquier fotografia o cargar 
 Asimismo, en el menú inferior se encuentran las siguientes cinco pantallas que contienen información importante sobre las especies.
 
 <details>
-<summary><b>Click para ver imágenes</b></summary>
+<summary><b>Click para ver las pantallas del menu inferior</b></summary>
  <div align="center">
+  
+
+
+  Estas dos primeras imágenes muestran pantallas informativas dentro de la aplicación.
    <img src="imgenes/pantalla_conservación.jpg" alt="Pantalla con la información de la conservación" width="360" height="783">
   <img src="imgenes/pantalla_ecologica.jpg" alt="Pantalla con la información de la importancia ecologica" width="360" height="783">
+
+Enseguida, también se muestra una guía para informar lo que se debe de hacer en caso de un ataque/encuentro con una serpiente de cascabel.
+
   <img src="imgenes/pantalla_guia_ataque.jpg" alt="Pantalla con la información de guía ante un ataque" width="360" height="783">
   <img src="imgenes/pantalla_guia_encuentro.jpg" alt="Pantalla con la información de guía ante un encuentro" width="360" height="783">
+
+  El sistema cuenta con un historial donde se almacena cada observación que el usuario haga y que el animal sea identificado, guardándose en una base de datos local en la aplicación.
   <img src="imgenes/pantalla_historial.jpg" alt="Pantalla con las observaciónes almacenadas en el dispositivo" width="360" height="783">
+
+  Finalmente, se puede visualizar y leer los términos y condiciones de uso en la aplicación en cualquier momento
   <img src="imgenes/pantalla_legal.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
  </div>
 </details>
