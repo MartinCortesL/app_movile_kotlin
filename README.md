@@ -51,8 +51,10 @@ La pantalla principal, en la cual, se podra tomar cualquier fotografia o cargar 
 
 Asimismo, en el menú inferior se encuentran las siguientes cinco pantallas que contienen información importante sobre las especies.
 
+A continuación se muestran las vistas de las pantallas presentes en la aplicación.
+
 <details>
-<summary><b>Click para ver las pantallas del menu inferior</b></summary>
+<summary><b>Click para ver las pantallas del menú inferior</b></summary>
  <div align="center">
  
   Estas dos primeras imágenes muestran pantallas informativas dentro de la aplicación.
@@ -69,7 +71,8 @@ Enseguida, también se muestra una guía para informar lo que se debe de hacer e
   
   <img src="imgenes/pantalla_historial.jpg" alt="Pantalla con las observaciónes almacenadas en el dispositivo" width="360" height="783">
 
-  Finalmente, se puede visualizar y leer los términos y condiciones de uso en la aplicación en cualquier momento
+  Finalmente, se puede visualizar y leer los términos y condiciones de uso en la aplicación en cualquier momento.
+  
   <img src="imgenes/pantalla_legal.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
  </div>
 </details>
@@ -78,6 +81,17 @@ Enseguida, también se muestra una guía para informar lo que se debe de hacer e
 <summary><b>Click para ver las pantallas de los permisos</b></summary>
  <div align="center">
   
+  Para que la aplicación funcione correctamente el usuario debe leer y aceptar los términos y condiciones de uso debido a que la mayoría de las especies que clasifica el sistema se encuentran en peligro de extinción o con protección especial de acuerdo a la NORMA Oficial Mexicana NOM-059-SEMARNAT-2010.
+  
+  <img src="imgenes/pantalla_checkbox.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+
+  Enseguida se solicita el permiso de la cámara del dispositivo para tomar las fotografías necesarias para la clasificación de los animales.
+
+  <img src="imgenes/pantalla_camara.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+
+  Del mismo modo, una vez que algún animal sea clasificado se solicitará el permiso para acceder a la ubicación del dispositivo, el usuario es libre de aceptar o no, en caso de rechazar el permiso la aplicación continuará funcionando correctamente.
+
+  <img src="imgenes/pantalla_ubicación.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
  </div>
 </details>
 
