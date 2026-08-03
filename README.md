@@ -95,4 +95,16 @@ Enseguida, también se muestra una guía para informar lo que se debe de hacer e
  </div>
 </details>
 
+<details>
+<summary><b>Click para ver las pantallas del funcionamiento de la aplicación</b></summary>
+ <div align="center">
+  <img src="imgenes/pantalla_vprevia.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+  <img src="imgenes/pantalla_carga.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+  <img src="imgenes/pantalla_error.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+  <img src="imgenes/pantalla_resultados.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+  <img src="imgenes/pantalla_ficha.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+  <img src="imgenes/pantalla_compartir.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+ </div>
+</details>
+
 ### Resultados del modelo de IA
