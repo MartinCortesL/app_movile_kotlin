@@ -87,23 +87,40 @@ Enseguida, también se muestra una guía para informar lo que se debe de hacer e
 
   Enseguida se solicita el permiso de la cámara del dispositivo para tomar las fotografías necesarias para la clasificación de los animales.
 
-  <img src="imgenes/pantalla_camara.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+  <img src="imgenes/pantalla_camara.jpg" alt="Pantalla con el permiso para la camara" width="360" height="783">
 
   Del mismo modo, una vez que algún animal sea clasificado se solicitará el permiso para acceder a la ubicación del dispositivo, el usuario es libre de aceptar o no, en caso de rechazar el permiso la aplicación continuará funcionando correctamente.
 
-  <img src="imgenes/pantalla_ubicación.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+  <img src="imgenes/pantalla_ubicación.jpg" alt="Pantalla con el permiso para la ubicación" width="360" height="783">
  </div>
 </details>
 
 <details>
 <summary><b>Click para ver las pantallas del funcionamiento de la aplicación</b></summary>
  <div align="center">
-  <img src="imgenes/pantalla_vprevia.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
-  <img src="imgenes/pantalla_carga.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
-  <img src="imgenes/pantalla_error.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
-  <img src="imgenes/pantalla_resultados.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
-  <img src="imgenes/pantalla_ficha.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
-  <img src="imgenes/pantalla_compartir.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+
+  Primera pantalla cuando se elige una imagen antes de clasificar.
+  
+  <img src="imgenes/pantalla_vprevia.jpg" alt="Pantalla para visualizar la vista previa" width="360" height="783">
+  
+  Pantalla de espera mientras se realiza la clasificación.
+  
+  <img src="imgenes/pantalla_carga.jpg" alt="Pantalla con la espera mientras se realiza la identificación" width="360" height="783">
+  
+  Se muestra un error en caso de que no se logre clasificar al animal correctamente.
+  
+  <img src="imgenes/pantalla_error.jpg" alt="Pantalla que muestra el error en caso de no identificar al animal" width="360" height="783">
+  
+  Los resultados muestran la fecha y hora, además de la ubicación si fue aceptado el permiso.
+  
+  <img src="imgenes/pantalla_resultados.jpg" alt="Pantalla con los resultados de la identificación" width="360" height="783">
+
+  Se podrá visualizar información del animal clasificado si se presiona el icono izquierdo.
+  
+  <img src="imgenes/pantalla_ficha.jpg" alt="Pantalla para visualizar la información del animal" width="360" height="783">
+  
+  Igualmente, se podrá compartir la observación realizada en redes sociales mediante el icono derecho.
+  <img src="imgenes/pantalla_compartir.jpg" alt="Pantalla para compartir a redes sociales la identificación" width="360" height="783">
  </div>
 </details>
 
