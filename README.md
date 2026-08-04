@@ -44,7 +44,7 @@ Por otro lado, el modelo puro entrenado se puede descargar en: [Modelo ResNet50]
 
 ### Diseño de la aplicación
 
-La pantalla principal, en la cual, se podra tomar cualquier fotografia o cargar alguna imagen desde la misma galería, es la siguiente.
+La pantalla principal, en la cual, se podrá tomar cualquier fotografía o cargar alguna imagen desde la misma galería, es la siguiente.
 <div align="center">
    <img src="imgenes/pantalla_principal.jpg" alt="Pantalla principal" width="360" height="783">
 </div>
@@ -56,42 +56,62 @@ A continuación se muestran las vistas de las pantallas presentes en la aplicaci
 <details>
 <summary><b>Click para ver las pantallas del menú inferior</b></summary>
  <div align="center">
- 
+
+---
+  
   Estas dos primeras imágenes muestran pantallas informativas dentro de la aplicación.
   
    <img src="imgenes/pantalla_conservación.jpg" alt="Pantalla con la información de la conservación" width="360" height="783">
   <img src="imgenes/pantalla_ecologica.jpg" alt="Pantalla con la información de la importancia ecologica" width="360" height="783">
+
+--- 
 
 Enseguida, también se muestra una guía para informar lo que se debe de hacer en caso de un ataque/encuentro con una serpiente de cascabel.
 
   <img src="imgenes/pantalla_guia_ataque.jpg" alt="Pantalla con la información de guía ante un ataque" width="360" height="783">
   <img src="imgenes/pantalla_guia_encuentro.jpg" alt="Pantalla con la información de guía ante un encuentro" width="360" height="783">
 
+---
+
   El sistema cuenta con un historial donde se almacena cada observación que el usuario haga y que el animal sea identificado, guardándose en una base de datos local en la aplicación.
   
   <img src="imgenes/pantalla_historial.jpg" alt="Pantalla con las observaciónes almacenadas en el dispositivo" width="360" height="783">
 
+---
+
   Finalmente, se puede visualizar y leer los términos y condiciones de uso en la aplicación en cualquier momento.
   
   <img src="imgenes/pantalla_legal.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
+
+---
+ 
  </div>
 </details>
 
 <details>
 <summary><b>Click para ver las pantallas de los permisos</b></summary>
  <div align="center">
+
+ ---
   
   Para que la aplicación funcione correctamente el usuario debe leer y aceptar los términos y condiciones de uso debido a que la mayoría de las especies que clasifica el sistema se encuentran en peligro de extinción o con protección especial de acuerdo a la NORMA Oficial Mexicana NOM-059-SEMARNAT-2010.
   
   <img src="imgenes/pantalla_checkbox.jpg" alt="Pantalla con los términos y condiciones de la aplicación" width="360" height="783">
 
+---
+
   Enseguida se solicita el permiso de la cámara del dispositivo para tomar las fotografías necesarias para la clasificación de los animales.
 
   <img src="imgenes/pantalla_camara.jpg" alt="Pantalla con el permiso para la camara" width="360" height="783">
 
+  ---
+
   Del mismo modo, una vez que algún animal sea clasificado se solicitará el permiso para acceder a la ubicación del dispositivo, el usuario es libre de aceptar o no, en caso de rechazar el permiso la aplicación continuará funcionando correctamente.
 
   <img src="imgenes/pantalla_ubicación.jpg" alt="Pantalla con el permiso para la ubicación" width="360" height="783">
+
+---
+
  </div>
 </details>
 
@@ -99,28 +119,42 @@ Enseguida, también se muestra una guía para informar lo que se debe de hacer e
 <summary><b>Click para ver las pantallas del funcionamiento de la aplicación</b></summary>
  <div align="center">
 
+ ---
+
   Primera pantalla cuando se elige una imagen antes de clasificar.
   
   <img src="imgenes/pantalla_vprevia.jpg" alt="Pantalla para visualizar la vista previa" width="360" height="783">
+
+  ---
   
   Pantalla de espera mientras se realiza la clasificación.
   
   <img src="imgenes/pantalla_carga.jpg" alt="Pantalla con la espera mientras se realiza la identificación" width="360" height="783">
+
+  ---
   
   Se muestra un error en caso de que no se logre clasificar al animal correctamente.
   
   <img src="imgenes/pantalla_error.jpg" alt="Pantalla que muestra el error en caso de no identificar al animal" width="360" height="783">
+
+  ---
   
   Los resultados muestran la fecha y hora, además de la ubicación si fue aceptado el permiso.
   
   <img src="imgenes/pantalla_resultados.jpg" alt="Pantalla con los resultados de la identificación" width="360" height="783">
 
+---
+
   Se podrá visualizar información del animal clasificado si se presiona el icono izquierdo.
   
   <img src="imgenes/pantalla_ficha.jpg" alt="Pantalla para visualizar la información del animal" width="360" height="783">
+
+  ---
   
   Igualmente, se podrá compartir la observación realizada en redes sociales mediante el icono derecho.
   <img src="imgenes/pantalla_compartir.jpg" alt="Pantalla para compartir a redes sociales la identificación" width="360" height="783">
+
+  ---
  </div>
 </details>
 
