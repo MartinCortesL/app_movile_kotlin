@@ -163,7 +163,8 @@ Enseguida, también se muestra una guía para informar lo que se debe de hacer e
 ---
 
 ### Resultados del modelo de IA
-
+<div align="center">
+ 
 Hiperparametros utilizados en tres modelos.
 
 | Modelo | Optimizer | Epochs | Batch size | num workers | Learning rate | 
@@ -199,3 +200,5 @@ Finalmente se calculó las Macro´s necesarias con el que se definió que el mej
 | Macro puntuación F1 | 91.15% | 87.35% | 85.92% |
 | Macro precisión     | 91.19% | 87.39% | 85.98% |
 | Macro Sensibilidad  | 91.13% | 87.34% | 85.88% |
+
+</div>
