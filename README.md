@@ -42,6 +42,8 @@ Todos estos animales habitan en el estado de Zacatecas, México.
 
 Por otro lado, el modelo puro entrenado se puede descargar en: [Modelo ResNet50](https://drive.google.com/drive/folders/1EVbwNs3NiT5-lU0dxr1VLg_0NcgxXaHS?usp=drive_link), para visualizar los resultados obtenidos por el modelo [vaya a la sección "Resultados del modelo de IA"](#resultados-del-modelo-de-ia)
 
+---
+
 ### Diseño de la aplicación
 
 La pantalla principal, en la cual, se podrá tomar cualquier fotografía o cargar alguna imagen desde la misma galería, es la siguiente.
@@ -158,4 +160,12 @@ Enseguida, también se muestra una guía para informar lo que se debe de hacer e
  </div>
 </details>
 
+---
+
 ### Resultados del modelo de IA
+
+| Nombre | Edad | Ocupación |
+|--------|------|-----------|
+| Zhang  | 25   | Ingeniero |
+| Li     | 30   | Diseñador |
+| Wang   | 28   | Gerente de Producto |
