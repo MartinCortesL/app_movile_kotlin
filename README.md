@@ -164,8 +164,34 @@ Enseguida, también se muestra una guía para informar lo que se debe de hacer e
 
 ### Resultados del modelo de IA
 
-| Nombre | Edad | Ocupación |
-|--------|------|-----------|
-| Zhang  | 25   | Ingeniero |
-| Li     | 30   | Diseñador |
-| Wang   | 28   | Gerente de Producto |
+Hiperparametros utilizados en tres modelos.
+
+| Modelo | Optimizer | Epochs | Batch size | num workers | Learning rate | 
+|--------|-----------|--------|------------|-------------|---------------|
+| ResNet-50         | Adam | 20 | 32  | 2 | 0.001 |
+| Efficient Net-B0  | Adam | 20 | 512 | 2 | 0.005 |
+| Squezze Net-1.0   | Adam | 15 | 32  | 2 | 0.001 |
+
+***
+
+Resultados obtenidos entre el dataset de entrenamiento y el dataset de validación.
+
+| Modelo | Pérdida (Train) | Exactitud (Train) | Pérdida (Val) | Exactitud (Val) | Tiempo promedio por época (Min). |
+|--------|-----------------|-------------------|---------------|-----------------|----------------------------------|
+| ResNet-50        | 0.3378 | 88.73% | 0.3412 | 88.88% | 5.45 |
+| Efficient Net-B0 | 0.3893 | 87.71% | 0.38   | 87.04% | 5.06 |
+| Squeeze Net-1.0  | 0.4065 | 86.61% | 0.429  | 86.71% | 5.29 |
+
+***
+
+Finalmente se calculó las Macro´s necesarias con el que se definió que el mejor modelo entre los tres fue ResNet-50.
+
+Métrica ResNet-
+50
+
+Efficient Net-B0 SqueezeNet-
+1.0
+
+Macro puntuación F1 91.15% 87.35% 85.92%
+Macro precisión 91.19% 87.39% 85.98%
+Macro Sensibilidad 91.13% 87.34% 85.88%
