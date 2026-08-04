@@ -184,14 +184,18 @@ Resultados obtenidos entre el dataset de entrenamiento y el dataset de validaci�
 
 ***
 
+Enseguida se muestra los resultados y la evolución durante la aplicación de una validación cruzada con diez folds.
+<div align="center">
+
+ <img src="imgenes/segunda_iteración.png" alt="Validación cruzada con 10 folds" height="1000">
+</div>
+
+***
+
 Finalmente se calculó las Macro´s necesarias con el que se definió que el mejor modelo entre los tres fue ResNet-50.
 
-Métrica ResNet-
-50
-
-Efficient Net-B0 SqueezeNet-
-1.0
-
-Macro puntuación F1 91.15% 87.35% 85.92%
-Macro precisión 91.19% 87.39% 85.98%
-Macro Sensibilidad 91.13% 87.34% 85.88%
+| Métrica | ResNet-50 | Efficient Net-B0 | SqueezeNet-1.0 |
+|---------|-----------|------------------|----------------|
+| Macro puntuación F1 | 91.15% | 87.35% | 85.92% |
+| Macro precisión     | 91.19% | 87.39% | 85.98% |
+| Macro Sensibilidad  | 91.13% | 87.34% | 85.88% |
